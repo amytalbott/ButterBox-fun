@@ -1,0 +1,176 @@
+body {
+  /* background-color: #ffeb5b; */
+  /* background-color: #faf6dc; */
+}
+
+header {
+  background-image:url("../img/Bb-header.png");
+  background-position: center;
+}
+
+.hero-text {
+  display: none;
+}
+
+.logo {
+  width: 50%;
+
+}
+
+.black-line {
+  background-color: #0c162c;
+  height:3px;
+  margin: 0;
+}
+
+.jumbotron {
+  background-image:url("../img/Bb-jumbotron.png");
+  background-color: #81c3c9;
+  background-position: center;
+  padding: 15px;
+  background-repeat: no-repeat;
+}
+
+.lead-container {
+  padding: 15px;
+}
+
+.lead {
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 2.5em;
+  color: #0c162c;
+}
+
+.follow {
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 2em;
+  color: #0c162c;
+}
+
+.learn-more {
+  width: 25%;
+  padding-top: 10px;
+  background-color: #ffd230;
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 1.5em;
+  color: #0c162c;
+  border: none;
+}
+
+.learn-more:hover {
+  background-color: #0c162c;
+}
+
+
+.for-sale {
+  width: 90%;
+  margin: auto;
+  background-color: white;
+  padding: 15px 0 ;
+
+}
+
+.intro-card {
+  background-color: #a6d0d1;
+}
+
+.butter-img {
+  border-top: double #0c162c;
+  border-left: double #0c162c;
+  border-right: double #0c162c;
+}
+
+.card-text {
+  font-family: 'Reem Kufi', sans-serif;
+}
+
+.buy-btn {
+  background-color: #ffd230;
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 1.5em;
+  color: #0c162c;
+  border: none;
+}
+
+.buy-btn:hover {
+  background-color: #0c162c;
+}
+
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.enticing-content {
+  display: grid;
+  width: 90%;
+  margin: auto;
+}
+
+.enticing-content-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin: 5px;
+  border: 1px black solid;
+  background-color: #81c3c9;
+}
+
+.enticing-content-item-graphic {
+  width: 50%;
+}
+
+.enticing-content-item-words {
+
+}
+
+.enticing-words-big {
+  margin: 10px;
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 1.5em;
+}
+
+.enticing-words-small {
+  margin: 10px;
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 1em;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 500px) {
+  .jumbotron {
+    background-image:url("../img/Bb-Jumbotron-mobile.png");
+    background-color: #81c3c9;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .lead, .follow {
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 1.5em;
+    color: #0c162c;
+  }
+
+
+  .learn-more {
+    width: 25%;
+    padding-top: 10px;
+    background-color: #0c162c;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 1em;
+    color: white;
+    border: none;
+  }
+
+  .learn-more:hover {
+    background-color: #ffd230;
+  }
+}
